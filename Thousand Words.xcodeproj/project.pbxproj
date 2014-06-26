@@ -22,6 +22,13 @@
 		7E0AEDC1195BB5590005BF01 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0AEDA5195BB5590005BF01 /* CoreData.framework */; };
 		7E0AEDC9195BB5590005BF01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E0AEDC7195BB5590005BF01 /* InfoPlist.strings */; };
 		7E0AEDCB195BB5590005BF01 /* Thousand_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AEDCA195BB5590005BF01 /* Thousand_WordsTests.m */; };
+		7E0AEDD5195BB6F70005BF01 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0AEDD4195BB6F70005BF01 /* Storyboard.storyboard */; };
+		7E0AEDD8195BB7A30005BF01 /* JMAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AEDD7195BB7A30005BF01 /* JMAlbumTableViewController.m */; };
+		7E0AEDDB195BBB100005BF01 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AEDDA195BBB100005BF01 /* Album.m */; };
+		7E0AEDDE195BCCC00005BF01 /* JMCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AEDDD195BCCC00005BF01 /* JMCoreDataHelper.m */; };
+		7E0AEDE1195BD01A0005BF01 /* JMPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AEDE0195BD01A0005BF01 /* JMPhotosCollectionViewController.m */; };
+		7E0AEDE4195BD92F0005BF01 /* JMPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AEDE3195BD92F0005BF01 /* JMPhotoCollectionViewCell.m */; };
+		7E0AEDE6195BDB680005BF01 /* astronaut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E0AEDE5195BDB680005BF01 /* astronaut.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,18 @@
 		7E0AEDC6195BB5590005BF01 /* Thousand WordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thousand WordsTests-Info.plist"; sourceTree = "<group>"; };
 		7E0AEDC8195BB5590005BF01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E0AEDCA195BB5590005BF01 /* Thousand_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thousand_WordsTests.m; sourceTree = "<group>"; };
+		7E0AEDD4195BB6F70005BF01 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7E0AEDD6195BB7A30005BF01 /* JMAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAlbumTableViewController.h; sourceTree = "<group>"; };
+		7E0AEDD7195BB7A30005BF01 /* JMAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAlbumTableViewController.m; sourceTree = "<group>"; };
+		7E0AEDD9195BBB100005BF01 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		7E0AEDDA195BBB100005BF01 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		7E0AEDDC195BCCC00005BF01 /* JMCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCoreDataHelper.h; sourceTree = "<group>"; };
+		7E0AEDDD195BCCC00005BF01 /* JMCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCoreDataHelper.m; sourceTree = "<group>"; };
+		7E0AEDDF195BD01A0005BF01 /* JMPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		7E0AEDE0195BD01A0005BF01 /* JMPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		7E0AEDE2195BD92F0005BF01 /* JMPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		7E0AEDE3195BD92F0005BF01 /* JMPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		7E0AEDE5195BDB680005BF01 /* astronaut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astronaut.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +134,19 @@
 		7E0AEDA7195BB5590005BF01 /* Thousand Words */ = {
 			isa = PBXGroup;
 			children = (
-				7E0AEDB0195BB5590005BF01 /* JMAppDelegate.h */,
-				7E0AEDB1195BB5590005BF01 /* JMAppDelegate.m */,
+				7E0AEDD4195BB6F70005BF01 /* Storyboard.storyboard */,
+				7E0AEDE2195BD92F0005BF01 /* JMPhotoCollectionViewCell.h */,
+				7E0AEDE3195BD92F0005BF01 /* JMPhotoCollectionViewCell.m */,
+				7E0AEDDF195BD01A0005BF01 /* JMPhotosCollectionViewController.h */,
+				7E0AEDE0195BD01A0005BF01 /* JMPhotosCollectionViewController.m */,
+				7E0AEDD6195BB7A30005BF01 /* JMAlbumTableViewController.h */,
+				7E0AEDD7195BB7A30005BF01 /* JMAlbumTableViewController.m */,
+				7E0AEDDC195BCCC00005BF01 /* JMCoreDataHelper.h */,
+				7E0AEDDD195BCCC00005BF01 /* JMCoreDataHelper.m */,
 				7E0AEDB6195BB5590005BF01 /* Images.xcassets */,
 				7E0AEDB3195BB5590005BF01 /* Thousand_Words.xcdatamodeld */,
+				7E0AEDD9195BBB100005BF01 /* Album.h */,
+				7E0AEDDA195BBB100005BF01 /* Album.m */,
 				7E0AEDA8195BB5590005BF01 /* Supporting Files */,
 			);
 			path = "Thousand Words";
@@ -127,6 +155,9 @@
 		7E0AEDA8195BB5590005BF01 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E0AEDE5195BDB680005BF01 /* astronaut.jpg */,
+				7E0AEDB0195BB5590005BF01 /* JMAppDelegate.h */,
+				7E0AEDB1195BB5590005BF01 /* JMAppDelegate.m */,
 				7E0AEDA9195BB5590005BF01 /* Thousand Words-Info.plist */,
 				7E0AEDAA195BB5590005BF01 /* InfoPlist.strings */,
 				7E0AEDAD195BB5590005BF01 /* main.m */,
@@ -229,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0AEDAC195BB5590005BF01 /* InfoPlist.strings in Resources */,
+				7E0AEDE6195BDB680005BF01 /* astronaut.jpg in Resources */,
 				7E0AEDB7195BB5590005BF01 /* Images.xcassets in Resources */,
+				7E0AEDD5195BB6F70005BF01 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0AEDAE195BB5590005BF01 /* main.m in Sources */,
+				7E0AEDDE195BCCC00005BF01 /* JMCoreDataHelper.m in Sources */,
+				7E0AEDE1195BD01A0005BF01 /* JMPhotosCollectionViewController.m in Sources */,
 				7E0AEDB2195BB5590005BF01 /* JMAppDelegate.m in Sources */,
+				7E0AEDD8195BB7A30005BF01 /* JMAlbumTableViewController.m in Sources */,
+				7E0AEDDB195BBB100005BF01 /* Album.m in Sources */,
+				7E0AEDE4195BD92F0005BF01 /* JMPhotoCollectionViewCell.m in Sources */,
 				7E0AEDB5195BB5590005BF01 /* Thousand_Words.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
